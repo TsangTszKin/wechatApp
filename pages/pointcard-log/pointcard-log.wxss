@@ -1,0 +1,5 @@
+/* pages/healthcard-log/healthcard-log.wxss */
+
+page {
+  background-color: #eee;
+}

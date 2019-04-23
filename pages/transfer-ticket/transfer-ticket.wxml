@@ -1,0 +1,46 @@
+<!--pages/transfer-healthcard/transfer-healthcard.wxml-->
+<view class="weui-cells weui-cells_after-title" style='margin-bottom:100px;'>
+  <view class="weui-cell weui-cell_input" style='height:44px;'>
+    <view class="weui-cell__hd">
+      <view class="weui-label">代金券：</view>
+    </view>
+    <view class="weui-cell__bd" style='color:red;'>
+      <!-- <input class="weui-input" placeholder="请输入qq" /> -->
+      ￥10000.00
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">对方手机：</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入对方手机" />
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input" style='height:44px;'>
+    <view class="weui-cell__hd">
+      <view class="weui-label">转让张数：</view>
+    </view>
+    <view class="weui-cell__bd">
+      <view class='ticket'>
+        <view class='add'>+</view>
+        <input class='value'></input>
+        <view class='sub'>-</view>
+      </view>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">转让备注：</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入备注" />
+    </view>
+  </view>
+</view>
+
+
+
+<view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+  <button class="weui-btn mini-btn btn-action-big" size="mini" bindtap='next'>确认</button>
+</view>

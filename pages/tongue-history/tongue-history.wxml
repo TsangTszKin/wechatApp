@@ -1,0 +1,25 @@
+<view class='page'>
+  <view class="img-cell" hover-class="weui-cell_active" wx:for="{{list}}" wx:for-index="i" wx:key="i" wx:for-item="item">
+    <view class='header clear'>
+      <view class='title-o-o'>
+        <view class='title-o'></view>
+      </view>
+      <text class='title'>2019-03-03</text>
+      <button class="weui-btn mini-btn status btn-action" size="mini">详细</button>
+    </view>
+    <view class="body">
+      <view class='content wx-font1 wx-h2'>
+        <!-- <text class='title'>前</text> -->
+        <view class='content-2'>
+          <image class='img' src='../../images/yuantiao.jpg' data-url='../../images/yuantiao.jpg' bindtap='seeBigImg'></image>
+        </view>
+      </view>
+      <view class='content wx-font1 wx-h2'>
+        <!-- <text class='title'>后</text> -->
+        <view class='content-2'>
+          <image class='img' src='../../images/yuantiao.jpg' data-url='../../images/yuantiao.jpg' bindtap='seeBigImg'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

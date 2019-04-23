@@ -1,0 +1,33 @@
+<!--pages/healthcard-log/healthcard-log.wxml-->
+<view class="weui-cells weui-cells_after-title" style='font-size:15px;'>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">消费
+      <text style="color: red;">-￥100</text>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">2019-03-03 理疗</view>
+  </navigator>
+  <view class="weui-cells weui-cells_after-title" style='font-size:15px;'>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">转出
+        <text style="color: red;">-￥100</text>
+      </view>
+      <view class="weui-cell__ft">2019-03-03 18888888888</view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">转入
+        <text style="color: #66CD00;">￥100</text>
+      </view>
+      <view class="weui-cell__ft">2019-03-03 18888888888</view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">充值
+        <text style="color: #66CD00;">￥100</text>
+      </view>
+      <view class="weui-cell__ft">2019-03-03</view>
+    </view>
+
+
+  </view>
+</view>

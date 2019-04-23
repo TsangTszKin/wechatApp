@@ -1,0 +1,21 @@
+<!--pages/message/message.wxml-->
+<view class='page bcg'>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">2019/03/13 [分享文章] 赠送10积分</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">2019/03/13 [分享文章] 赠送10积分</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">2019/03/13 [分享文章] 赠送10积分</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">2019/03/13 [分享文章] 赠送10积分</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/qna/qna.wxml-->
+
+<view>
+  <view class='qna-cell bt'>
+    <view class="weui-cells__title wx-font1 question-title">
+      <text class='title-l wx-h3'></text>客户反馈
+    </view>
+    <view class="weui-cells weui-cells_after-title selection">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="" style="height: 3.3em" />
+          <!-- <view class="weui-textarea-counter">0/200</view> -->
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='qna-cell bt'>
+    <view class="weui-cells__title wx-font1 question-title">
+      <text class='title-l wx-h3'></text>调理师建议
+    </view>
+    <view class="weui-cells weui-cells_after-title selection">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="" style="height: 3.3em" />
+          <!-- <view class="weui-textarea-counter">0/200</view> -->
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+    <button class="weui-btn mini-btn btn-action-big" size="mini" bindtap='next'>下一步</button>
+  </view>
+
+</view>

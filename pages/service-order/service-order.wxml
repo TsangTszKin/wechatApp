@@ -1,0 +1,83 @@
+<!--pages/book-details/book-details.wxml-->
+<view class='book-details bcg'>
+  <view class="project-cell bcf" hover-class="weui-cell_active">
+    <view class='header'>
+      <text class='title-l'></text>
+      <text class='title'>养生项目</text>
+      <!-- <view class='add' bindtap='add'>+</view> -->
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src='../../images/yuantiao.jpg' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd wx-h3">空间火炙</view>
+      <view class="weui-cell__ft wx-h3">300元</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src='../../images/yuantiao.jpg' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd wx-h3">空间火炙</view>
+      <view class="weui-cell__ft wx-h3">100元</view>
+    </view>
+    <view style='overflow:hidden;'>
+      <view class='content wx-font1 wx-h2' style="width:fit-content;float:right;">折后：
+        <text class='text-2 wx-font2' style='color: #CD5B45;'>300</text>
+      </view>
+      <view class='content wx-font1 wx-h2' style="width:fit-content;float:right;margin-right:30px;">合计：
+        <text class='text-2 wx-font2'>400</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='ticket'>
+
+    <view class='card'>
+      <image src='../../images/card.png' style="margin-right: 5px;vertical-align: middle;width:32px; height: 32px;"></image>
+      <text class='c wx-h2'>健康卡</text>
+      <text class='c wx-h2 price'>￥1000</text>
+      <view>
+        <view class='add'>+</view>
+        <input class='value'></input>
+        <view class='sub'>-</view>
+      </view>
+    </view>
+
+    <view class='card'>
+      <image src='../../images/card.png' style="margin-right: 5px;vertical-align: middle;width:32px; height: 32px;"></image>
+      <text class='c wx-h2'>健康卡</text>
+      <text class='c wx-h2 price'>￥1000</text>
+      <view>
+        <view class='add'>+</view>
+        <input class='value'></input>
+        <view class='sub'>-</view>
+      </view>
+    </view>
+
+    <view class='card'>
+      <image src='../../images/card.png' style="margin-right: 5px;vertical-align: middle;width:32px; height: 32px;"></image>
+      <text class='c wx-h2'>健康卡</text>
+      <text class='c wx-h2 price'>￥1000</text>
+      <view>
+        <view class='add'>+</view>
+        <input class='value'></input>
+        <view class='sub'>-</view>
+      </view>
+    </view>
+
+
+    <view class='clearfix' style='margin:20px 0;'>
+      <text class='fl wx-h3'>健康卡： 0</text>
+      <text class='fr wx-h3'>代金券： -￥400，2张</text>
+    </view>
+
+    <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+      <button class="weui-btn mini-btn btn-action-big" size="mini" bindtap='next'>确认结单</button>
+    </view>
+
+  </view>
+
+
+
+</view>

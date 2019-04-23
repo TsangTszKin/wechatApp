@@ -1,0 +1,60 @@
+<!--components/home/content/hot/hot.wxml-->
+<view class="book-cell" hover-class="weui-cell_active">
+
+  <view class='main'>
+
+    <view class='left'>
+      <image class="weui-media-box__thumb" src="../../images/icon9.jpeg" />
+    </view>
+    <view class='right'>
+      <view class='header'>
+        <text class='title'>客户：{{name}}</text>
+      </view>
+      <text class='title2 wx-font2'>调理师：{{master}}</text>
+      <text class='title2 wx-font2'>预约时段：{{bookTime}}</text>
+      <text class='title2 wx-font2'>签到时间：{{signTime}}</text>
+
+    </view>
+  </view>
+
+  <view class='option-group'>
+    <button class="weui-btn mini-btn btn-action" type="primary" size="mini" bindtap='service' data-id="{{id}}">确认服务</button>
+    <button class="weui-btn mini-btn btn-action" type="default" size="mini" bindtap='close' data-id="{{id}}">关闭</button>
+  </view>
+
+</view>
+
+
+<view style='border-top:5px solid gainsboro;'>
+
+  <view class='header' style='padding:13px;'>
+    <text class='title-l'></text>
+    <text class='title wx-h2'>最近调理情况</text>
+    <text class='title2 wx-h3' style='float:right;color:#4876FF;font-weight:600;letter-spacing:0;' bindtap="seeTongue">看舌诊图</text>
+  </view>
+
+  <view class="book-cell" hover-class="weui-cell_active" wx:for="{{history}}" wx:for-index="i" wx:for-item="item" wx:key="i">
+
+    <view class='main'>
+
+      <view class='left2'>
+        <image class="weui-media-box__thumb" src="../../images/icon9.jpeg" />
+      </view>
+      <view class='right'>
+        <view class='header'>
+          <text class='title'>{{item.shopName}}</text>
+        </view>
+        <text class='title2 wx-font2'>调理师：{{item.master}}</text>
+        <text class='title2 wx-font2'>预约时段：{{item.serviceTime}}</text>
+        <text class='title2 wx-font2'>养生项目：{{item.project}}</text>
+        <text class='title2 wx-font2'>服务时间：{{item.serviceTime}}</text>
+      </view>
+    </view>
+
+    <view class='option-group'>
+      <button class="weui-btn mini-btn btn-action" type="primary" size="mini" bindtap='look' data-id="{{item.id}}">查看</button>
+    </view>
+
+  </view>
+
+</view>

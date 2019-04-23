@@ -1,0 +1,4 @@
+/* pages/message/message.wxss */
+.page {
+  height: 100%;
+}

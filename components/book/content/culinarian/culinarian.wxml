@@ -1,0 +1,31 @@
+<!--components/home/content/hot/hot.wxml-->
+<view class='bt'>
+  <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg left">
+      <image class="weui-media-box__thumb" src="../../../../images/icon9.jpeg" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg right">
+      <view class="weui-media-box__title name">
+        <text class='wx-font1 wx-h2 name1'>苗老师</text>
+        <text class='wx-font2 wx-h3 name2'>顾客周到，穴位精准</text>
+      </view>
+      <view class="weui-media-box__desc pingjia">
+        <view class='fuwu'>
+          <view class='view1 c'>99</view>
+          <view class='view2'>总服务</view>
+        </view>
+        <view class='fuwu'>
+          <view class='view1 c'>8.9</view>
+          <view class='view2'>总评分</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class='bottom'>
+    <view class='introl'>毕业于XXX大学，有X年从业经验，做事认真负责，带人真诚友善，顾客的满意是对我最大的肯定</view>
+    <view class='action'>
+      <button class="weui-btn mini-btn book btn-action" type="primary" size="mini" bindtap='goToBookTime'>预约</button>
+    </view>
+  </view>
+</view>

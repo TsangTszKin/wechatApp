@@ -1,0 +1,58 @@
+<view class='page bcg'>
+
+  <view class='cell card1'>
+    <view class='header'>
+      <view class='bcf'>
+        <image src='../../images/card.png'></image>
+      </view>
+      <text class='wx-h2'>健康卡</text>
+    </view>
+    <view class='content'>￥1000</view>
+    <view class='footer'>
+      <navigator url="/pages/transfer-healthcard/transfer-healthcard">
+        <button>转让</button>
+      </navigator>
+      <navigator url="/pages/healthcard-log/healthcard-log">
+        <button>明细</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class='cell card2'>
+    <view class='header'>
+      <view class='bcf'>
+        <image src='../../images/card.png'></image>
+      </view>
+      <text class='wx-h2'>代金券</text>
+    </view>
+    <view class='content'>￥1000</view>
+    <view class='footer'>
+      <!-- <navigator url="/pages/transfer-ticket/transfer-ticket">
+        <button>转让</button>
+      </navigator> -->
+      <navigator url="/pages/my-ticket/my-ticket">
+        <button>查看</button>
+      </navigator>
+
+    </view>
+  </view>
+
+  <view class='cell card3'>
+    <view class='header'>
+      <view class='bcf'>
+        <image src='../../images/card.png'></image>
+      </view>
+      <text class='wx-h2'>积分卡</text>
+    </view>
+    <view class='content'>￥1000</view>
+    <view class='footer'>
+      <navigator url="/pages/transfer-pointcard/transfer-pointcard">
+        <button>转让</button>
+      </navigator>
+      <navigator url="/pages/pointcard-log/pointcard-log">
+        <button>明细</button>
+      </navigator>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,125 @@
+.title-l {
+  margin-right: 5px;
+  border-left: 3px solid #a46a3e;
+}
+
+.btn-primary {
+  background-color: #ab683d;
+  color: #fff;
+  border-radius: 15px;
+  margin: 0;
+  margin-top: 0;
+}
+
+.btn {
+  background-color: #fff;
+  color: #666;
+  border-radius: 15px;
+  margin: 0;
+  margin-top: 0;
+}
+
+.btn-disabled {
+  background-color: #fff;
+  color: #beb3ac;
+  border: 1px solid #beb3ac;
+  border-radius: 15px;
+  margin: 0;
+  margin-top: 0;
+}
+
+.btn-action {
+  border: 1px solid #ab683d;
+  background-color: #fff;
+  color: #ab683d;
+  border-radius: 15px;
+  height: 25px;
+  line-height: 24px !important;
+  font-size: 13px !important;
+}
+
+.btn-action-big {
+  border: 1px solid #ab683d;
+  background-color: #fff;
+  color: #ab683d;
+  border-radius: 15px;
+  height: 32px;
+  width: 80%;
+  line-height: 32px !important;
+  font-size: 13px !important;
+  letter-spacing:5px;
+}
+
+.c {
+  color: #ab683d;
+}
+
+.bc {
+  background-color: #ab683d;
+}
+
+.bcg {
+  background-color: #eee;
+}
+
+.bcf {
+  background-color: #fff;
+}
+
+.bt {
+  border-top: 5px solid gainsboro;
+}
+
+.bb {
+  border-bottom: 5px solid gainsboro;
+}
+
+.clear {
+  clear: both;
+}
+
+.wx-h1 {
+  font-size: 20px;
+  ine-height: 20px;
+  /* letter-spacing: 1px; */
+}
+
+.wx-h2 {
+  font-size: 15px;
+  ine-height: 15px;
+  /* letter-spacing: 1px; */
+}
+
+.wx-h3 {
+  font-size: 13px;
+  ine-height: 13px;
+  /* letter-spacing: 1px; */
+}
+
+.wx-h4 {
+  font-size: 10px;
+  ine-height: 10px;
+  /* letter-spacing: 1px; */
+}
+
+.wx-font1 {
+  color: #000;
+}
+
+.wx-font2 {
+  color: #696969;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.weui-navbar__title {
+  height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}

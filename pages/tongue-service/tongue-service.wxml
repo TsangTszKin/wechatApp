@@ -1,0 +1,51 @@
+<view class='page'>
+  <view class="img-cell" hover-class="weui-cell_active" style='position:relative;'>
+    <view class='header clear'>
+      <view class='title-o-o'>
+        <view class='title-o'></view>
+      </view>
+      <text class='title'>{{type == '1'?'调理前':'调理后'}}</text>
+
+    </view>
+    <view class="body">
+      <view class='content wx-font1 wx-h2'>
+        <view class='content-2' style='display: {{imgUrl?"flex":"none"}}'>
+          <image class='img'  data-url='{{imgUrl}}' src='{{imgUrl}}' bindtap='seeBigImg'></image>
+        </view>
+
+        <view class='content-2' style='display: {{imgUrl?"none":"flex"}}' bindtap='selectImg'>
+          <image class='select-img' src='../../images/select-img.png'></image>
+          <text class='wx-font2 wx-h4'>上传支持图片</text>
+        </view>
+
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input" style='padding-top:10px;'>
+      <view class="weui-cell__hd wx-font2 wx-h3" style='height:33px;line-height:33px;'>
+        <view class="weui-label" style='width:50px;'>备注：</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input wx-h3" placeholder="请输入备注" />
+      </view>
+    </view>
+    <button class="weui-btn mini-btn status btn-action" size="mini" style='position:absolute;right:10px;bottom:51px;z-index:9999;' bindtap='next'>下一步</button>
+  </view>
+
+  <view class="img-cell" hover-class="weui-cell_active">
+    <view class='header clear'>
+      <view class='title-o-o'>
+        <view class='title-o'></view>
+      </view>
+      <text class='title'>上一次拍照2019-03-13期间服务3次</text>
+      <!-- <button class="weui-btn mini-btn status btn-action" size="mini">详细</button> -->
+    </view>
+    <view class="body">
+      <view class='content wx-font1 wx-h2'>
+        <!-- <text class='title'>前</text> -->
+        <view class='content-2'>
+          <image class='img' data-url="../../images/yuantiao.jpg" src='../../images/yuantiao.jpg' bindtap='seeBigImg'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

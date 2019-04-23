@@ -1,0 +1,26 @@
+<!--components/home/content/hot/hot.wxml-->
+<view class="book-cell" hover-class="weui-cell_active">
+
+  <view class='main'>
+
+    <view class='left'>
+      <image class="weui-media-box__thumb" src="../../../../images/icon9.jpeg" />
+    </view>
+    <view class='right'>
+      <view class='header'>
+        <text class='title'>客户：{{shopName}}</text>
+      </view>
+      <text class='title2 wx-font2'>调理师：{{man}}</text>
+      <text class='title2 wx-font2'>预约时段：{{bookTime}}</text>
+      <text class='title2 wx-font2'>养生项目：{{projectName}}</text>
+      <text class='title2 wx-font2'>签到时间：{{serviceTime}}</text>
+
+    </view>
+  </view>
+
+  <view class='option-group'>
+    <button class="weui-btn mini-btn btn-action" type="primary" size="mini" bindtap='look' data-id="{{id}}">查看</button>
+    <button class="weui-btn mini-btn btn-action" type="default" size="mini" bindtap='service' data-id="{{id}}">服务</button>
+  </view>
+  
+</view>

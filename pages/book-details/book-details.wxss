@@ -1,0 +1,263 @@
+/* pages/book-details/book-details.wxss */
+
+.book-details .book-cell {
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+  height: auto;
+  width: auto;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.book-cell .left {
+  height: 100px;
+  width: 100px;
+}
+
+.book-cell .left image {
+  width: 100%;
+}
+
+.book-cell .right {
+  flex: 2;
+  padding-left: 8px;
+}
+
+.book-details .book-cell .header {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.book-details .book-cell .header .status {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 16px;
+  color: #e64340;
+}
+
+.book-cell .header .status0 {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 16px;
+  color: #beb3ac;
+}
+
+.book-cell .header .status1 {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 16px;
+  color: orange;
+}
+
+.book-cell .header .status2 {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 16px;
+  color: blue;
+}
+
+.book-details .book-cell  .title {
+  font-size: 16px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* letter-spacing: 2px; */
+  line-height: 16px;
+  padding: 2px 0;
+}
+
+.book-details .book-cell  .title2 {
+  font-size: 11px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* letter-spacing: 2px; */
+  line-height: 11px;
+  padding: 2px 0;
+  width: 100%;
+}
+
+.book-details .question-cell {
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.book-details .question-cell .header {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.book-details .question-cell .header .title {
+  font-size: 16px;
+  word-break: break-all;
+  /* display: -webkit-box; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  letter-spacing: 2px;
+  line-height: 16px;
+  padding: 8px 0;
+  width: calc(100% - 65px);
+}
+
+.book-details .question-cell .content {
+  letter-spacing: 2px;
+}
+
+.book-details .question-cell .content .text-2 {
+  font-size: 15px;
+}
+
+.book-details .img-cell {
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.book-details .img-cell .header {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.book-details .img-cell .header .status {
+  position: absolute;
+  right: 10px;
+  top: -13px;
+}
+
+.book-details .img-cell .header .title {
+  font-size: 16px;
+  word-break: break-all;
+  /* display: -webkit-box; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  letter-spacing: 2px;
+  line-height: 16px;
+  padding: 8px 0;
+  width: calc(100% - 65px);
+}
+
+.book-details .img-cell .header .title2 {
+  float: right;
+  color: #4876ff;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-right: 20px;
+}
+
+.book-details .img-cell  .body {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.book-details .img-cell  .body .content {
+  text-align: center;
+}
+
+.book-details .img-cell  .body  .content .content-2 {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.book-details .img-cell  .body .content .content-2 .img {
+  /* width: 100%; */
+}
+
+.book-details .project-cell {
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.book-details .project-cell .header {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.book-details .project-cell .header .title {
+  font-size: 16px;
+  word-break: break-all;
+  /* display: -webkit-box; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  letter-spacing: 2px;
+  line-height: 16px;
+  padding: 8px 0;
+}
+
+.book-details .project-cell .content {
+  letter-spacing: 2px;
+}
+
+.book-details .project-cell .content .text-2 {
+  font-size: 15px;
+}
+
+.book-details .evaluate-cell {
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.book-details .evaluate-cell .header {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.book-details .evaluate-cell .header .status {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+.book-details .evaluate-cell  .title {
+  font-size: 16px;
+  word-break: break-all;
+  /* display: -webkit-box; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  letter-spacing: 2px;
+  line-height: 16px;
+  padding: 8px 0;
+}
+
+.book-details .evaluate-cell .stars-row {
+  height: 24px;
+  margin: 10px 0;
+}
+
+.book-details .evaluate-cell .stars-row .title2 {
+  width: fint-content;
+  float: left;
+}

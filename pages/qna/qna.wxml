@@ -1,0 +1,38 @@
+<!--pages/qna/qna.wxml-->
+
+<view>
+  <view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">错误提示</view>
+  <view class='qna-cell' wx:for="{{radioItems}}" wx:key="i" wx:for-item="item" wx:for-index="i">
+    <view class="weui-cells__title wx-font1 question-title">
+      <text class='title-l wx-h3'></text>{{item.question}}
+    </view>
+    <view class='selection'>
+      <button wx:for="{{item.list}}" wx:for-item="item2" wx:for-index="j" wx:key="j" class="weui-btn mini-btn {{item2.checked?'btn-primary': 'btn-disabled'}}" size="mini" data-value="{{item2.value}}" data-index1="{{i}}" data-index2="{{j}}" bindtap="radioChange">{{item2.name}}</button>
+    </view>
+    <view class="weui-cell weui-cell_link">
+      <view class="weui-cells weui-cells_after-title" style='width:100%;'>
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" placeholder="请输入其它" />
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class='c wx-h2 require' style=' text-align: center;'>
+    就诊要求：改善睡眠,改善肠道消化问题
+  </view>
+
+  <view style='display: {{type == 1?"block;":"none;"}}'>
+    <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+      <button class="weui-btn mini-btn btn-action" size="mini">跳过</button>
+      <button class="weui-btn btn-action" size="mini" bindtap="showTopTips">提交</button>
+    </view>
+  </view>
+
+  <view style='display: {{type == 2?"block;":"none;"}}'>
+    <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+      <button class="weui-btn mini-btn btn-action" size="mini">下一步</button>
+    </view>
+  </view>
+
+</view>

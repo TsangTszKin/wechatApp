@@ -1,0 +1,36 @@
+<!--components/navbar.wxml-->
+<view class="weui-tab">
+  <view class="weui-navbar">
+    <block wx:for="{{tabs}}" wx:key="*this">
+      <view id="{{index}}" class="weui-navbar__item wx-font2 {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+        <view class="weui-navbar__title">{{item}}</view>
+      </view>
+    </block>
+    <!-- <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view> -->
+  </view>
+
+  <view class="weui-tab__panel">
+
+    <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+      <view class="weui-panel__bd">
+        <hot wx:for="{{hotList}}"  wx:for-index="i" wx:key="id" wx:for-item="item" id="{{item.id}}" imgPath="{{item.imgPath}}" title="{{item.title}}" address="{{item.address}}" time="{{item.time}}" type="{{item.type}}"></hot>
+      </view>
+    </view>
+    <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+      <view class="weui-panel__bd">
+        <hot wx:for="{{hotList}}"  wx:for-index="i" wx:key="id" wx:for-item="item" id="{{item.id}}" imgPath="{{item.imgPath}}" title="{{item.title}}" address="{{item.address}}" time="{{item.time}}" type="{{item.type}}"></hot>
+      </view>
+    </view>
+    <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+      <view class="weui-panel__bd">
+        <hot wx:for="{{hotList}}"  wx:for-index="i" wx:key="id" wx:for-item="item" id="{{item.id}}" imgPath="{{item.imgPath}}" title="{{item.title}}" address="{{item.address}}" time="{{item.time}}" type="{{item.type}}"></hot>
+      </view>
+    </view>
+    <view class="weui-tab__content" hidden="{{activeIndex != 3}}">
+      <view class="weui-panel__bd">
+        <hot wx:for="{{hotList}}"  wx:for-index="i" wx:key="id" wx:for-item="item" id="{{item.id}}" imgPath="{{item.imgPath}}" title="{{item.title}}" address="{{item.address}}" time="{{item.time}}" type="{{item.type}}"></hot>
+      </view>
+    </view>
+  </view>
+
+</view>

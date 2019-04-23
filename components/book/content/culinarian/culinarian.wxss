@@ -1,0 +1,68 @@
+/* components/home/content/hot/hot.wxss */
+@import '/style/weui.wxss';
+@import '/style/base.wxss';
+
+.cell {
+  
+}
+
+.weui-media-box {
+  padding: 10px;
+}
+
+.left {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+}
+
+.right {
+}
+
+.right .name {
+}
+
+.right .name .name1 {
+}
+
+.right .name .name2 {
+  margin-left: 10px;
+}
+
+.right .pingjia {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right .pingjia .fuwu {
+  margin: 0 10px;
+}
+
+.right .pingjia .fuwu .view1 {
+  font-size: 25px;
+}
+
+.bottom .introl {
+  font-size: 12px;
+  padding: 10px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 2行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bottom .action {
+  padding: 10px;
+  text-align: right;
+}
+
+.bottom .action .book {
+  color: #ab683d;
+  border: 1px solid #ab683d;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 5 10px;
+}

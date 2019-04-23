@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/book-time/book-time",
+    "pages/healthcard-log/healthcard-log",
+    "pages/pointcard-log/pointcard-log",
+    "pages/service-order/service-order",
+    "pages/transfer-ticket/transfer-ticket",
+    "pages/book/book",
+    "pages/tongue-service/tongue-service",
+    "pages/service-advice/service-advice",
+    "pages/qna/qna",
+    "pages/evaluate/evaluate",
+    "pages/book-details/book-details",
+    "pages/discovery/discovery",
+    "pages/notify/notify",
+    "pages/chat/chat",
+    "pages/my/my",
+    "pages/answer/answer",
+    "pages/question/question",
+    "pages/artical/artical",
+    "pages/tongue-history/tongue-history",
+    "pages/service-details/service-details",
+    "pages/select-service-item/select-service-item",
+    "pages/my-wallet/my-wallet",
+    "pages/service-item/service-item",
+    "pages/transfer-healthcard/transfer-healthcard",
+    "pages/transfer-pointcard/transfer-pointcard",
+    "pages/message/message",
+    "pages/my-ticket/my-ticket",
+    "pages/sign/sign"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "禅易同空间养生馆",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#AB683D",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "空间养生",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "养生预约",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book-active.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "商城",
+        "iconPath": "images/shop.png",
+        "selectedIconPath": "images/shop-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  }
+}

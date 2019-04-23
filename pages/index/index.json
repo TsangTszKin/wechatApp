@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navbar": "/components/home/navbar/navbar"
+  },
+  "navigationBarTitleText": "禅易同空间养生馆"
+}

@@ -1,0 +1,75 @@
+/* pages/my-wallet/my-wallet.wxss */
+
+.page {
+  height: 100%;
+  padding: 10px 25px;
+}
+
+.page .cell {
+  margin-top: 10px;
+  height: 25vh;
+  border-radius: 5px;
+}
+
+.page .card1 {
+  background-color: #2dbf99;
+}
+
+.page .card2 {
+  background-color: #E74B43;
+}
+
+.page .card3 {
+  background-color: #5FA7E2;
+}
+
+.page .cell .header {
+  height: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page .cell .header view {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.page .cell .header view image {
+  height: 70%;
+  width: 70%;
+  margin-top: 15%;
+}
+
+.page .cell .header text {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.page .cell .content {
+  height: 28%;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.page .cell .footer {
+  height: 37%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page .cell .footer button {
+  margin: 0 8px;
+  height: 25px;
+  font-size: 13px;
+  line-height: 25px;
+  border-radius: 20px;
+  width: 75px;
+  letter-spacing: 5px;
+}

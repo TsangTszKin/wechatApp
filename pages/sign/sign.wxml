@@ -1,0 +1,12 @@
+<!--pages/sign/sign.wxml-->
+<view class="demo4">
+        <calendar 
+        weeks-type="cn" 
+        cell-size="30" 
+        next="{{true}}" prev="{{true}}" show-more-days="{{true}}"
+        calendar-style="demo4-calendar" 
+        header-style="demo4-header" 
+        board-style="demo4-board" 
+        days-color="{{demo4_days_style}}" 
+        />
+    </view>

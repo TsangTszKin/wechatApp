@@ -1,0 +1,14 @@
+/* pages/artical/artical.wxss */
+@import "/pages/wxParse/wxParse.wxss";
+
+.page__bd .title, .page__bd .title2 {
+  text-align: center;
+}
+
+.page__bd .title {
+  margin-bottom: 5px;
+}
+
+.page__bd .title2 {
+  text-align: center;
+}

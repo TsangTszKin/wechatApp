@@ -1,0 +1,53 @@
+<view class='page bcg'>
+
+  <view class='cell card2'>
+    <view class='header'>
+      <view class='bcf'>
+        <image src='../../images/card.png'></image>
+      </view>
+      <text class='wx-h2'>代金券</text>
+      <text class='wx-h2'>数量：3张</text>
+    </view>
+    <view class='content'>￥1000</view>
+    <view class='footer'>
+      <navigator url="/pages/transfer-ticket/transfer-ticket">
+        <button>转让</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class='cell card2'>
+    <view class='header'>
+      <view class='bcf'>
+        <image src='../../images/card.png'></image>
+      </view>
+      <text class='wx-h2'>代金券</text>
+      <text class='wx-h2'>数量：3张</text>
+    </view>
+    <view class='content'>￥1000</view>
+    <view class='footer'>
+      <navigator url="/pages/transfer-ticket/transfer-ticket">
+        <button>转让</button>
+      </navigator>
+    </view>
+  </view>
+
+
+  <view class='cell card2'>
+    <view class='header'>
+      <view class='bcf'>
+        <image src='../../images/card.png'></image>
+      </view>
+      <text class='wx-h2'>代金券</text>
+      <text class='wx-h2'>数量：3张</text>
+    </view>
+    <view class='content'>￥1000</view>
+    <view class='footer'>
+      <navigator url="/pages/transfer-ticket/transfer-ticket">
+        <button>转让</button>
+      </navigator>
+    </view>
+  </view>
+
+
+</view>

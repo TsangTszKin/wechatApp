@@ -1,0 +1,138 @@
+<!--pages/book-details/book-details.wxml-->
+<view class='book-details'>
+
+  <view class="book-cell" hover-class="weui-cell_active">
+
+    <view class='left'>
+      <image class="weui-media-box__thumb" src="../../images/icon9.jpeg" />
+    </view>
+    <view class='right'>
+      <view class='header'>
+        <text class='title wx-h1'>旗舰店xxx</text>
+        <text class='status0'>已服务</text>
+      </view>
+      <view class='title2 wx-font1 wx-h2'>调理师：
+        <text class='wx-font2'>李白</text>
+      </view>
+      <view class='title2 wx-font1 wx-h2'>预约时段：
+        <text class='wx-font2'>08:00~09:00</text>
+      </view>
+      <view class='title2 wx-font1 wx-h2'>养生项目：
+        <text class='wx-font2'>xxxxxxx</text>
+      </view>
+      <view class='title2 wx-font1 wx-h2'>服务时间：
+        <text class='wx-font2'>2019年02月2日 08:00</text>
+      </view>
+
+    </view>
+  </view>
+
+
+  <view class="question-cell" hover-class="weui-cell_active">
+    <view class='header'>
+      <text class='title-l'></text>
+      <text class='title'>健康问卷</text>
+    </view>
+    <view class='content wx-font1 wx-h3'>睡眠质量：
+      <text class='text-2 wx-font2'>不易入睡</text>
+    </view>
+    <view class='content wx-font1 wx-h3'>排便情况：
+      <text class='text-2 wx-font2'>经常肚疼，拉稀</text>
+    </view>
+    <view class='content wx-font1 wx-h3'>就诊要求：
+      <text class='text-2 wx-font2'>改善睡眠，改善肠道消化问题</text>
+    </view>
+  </view>
+
+  <view class="img-cell" hover-class="weui-cell_active">
+    <view class='header'>
+      <text class='title-l'></text>
+      <text class='title wx-h3'>舌诊图</text>
+      <text class='title2 wx-h3' bindtap='moreTongue'>更多</text>
+    </view>
+    <view class="body">
+      <view class='content wx-font1 wx-h2'>
+        <text class='title'>前</text>
+        <view class='content-2'>
+          <image class='img' src='../../images/yuantiao.jpg'  data-url='../../images/yuantiao.jpg' bindtap='seeBigImg'></image>
+        </view>
+      </view>
+      <view class='content wx-font1 wx-h2'>
+        <text class='title'>后</text>
+        <view class='content-2'>
+          <image class='img' src='../../images/yuantiao.jpg' data-url='../../images/yuantiao.jpg' bindtap='seeBigImg'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="project-cell" hover-class="weui-cell_active">
+    <view class='header'>
+      <text class='title-l'></text>
+      <text class='title'>养生项目</text>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src='../../images/yuantiao.jpg' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd wx-h3">空间火炙</view>
+      <view class="weui-cell__ft wx-h3">300元</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src='../../images/yuantiao.jpg' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd wx-h3">空间火炙</view>
+      <view class="weui-cell__ft wx-h3">100元</view>
+    </view>
+    <view style='overflow:hidden;'>
+      <view class='content wx-font1 wx-h2' style="width:fit-content;float:right;">折后：
+        <text class='text-2 wx-font2' style='color: #CD5B45;'>300</text>
+      </view>
+      <view class='content wx-font1 wx-h2' style="width:fit-content;float:right;margin-right:30px;">合计：
+        <text class='text-2 wx-font2'>400</text>
+      </view>
+    </view>
+    <view class='content' style='margin-top:30px;'>
+      <view class='wx-font2 wx-h3'>注意事项：</view>
+      <view class=' wx-font1 wx-h3'>1，火炙4小时内不宜碰生水，喝凉水。注意保暖，勿吹风</view>
+      <view class=' wx-font1 wx-h3'>2，火炙4小时内不宜碰生水，喝凉水。注意保暖，勿吹风</view>
+    </view>
+    <view class='content' style='margin-top:20px;'>
+      <view class='wx-font2 wx-h3'>调理师建议：</view>
+      <text class=' wx-font1 wx-h3'>建议继续调理，下次请带外套，防受风</text>
+    </view>
+  </view>
+
+
+  <view class="evaluate-cell" hover-class="weui-cell_active" style='display: {{type == 2?"none":"block"}};'>
+    <view class='header'>
+      <text class='title-l'></text>
+      <text class='title wx-h1'>会员评价</text>
+      <text class='status wx-font2 wx-h3'>2019-03-19 12:00</text>
+    </view>
+    <view class='wx-font1 wx-h3 stars-row'>
+      <view class='title2 '>环境质量：</view>
+      <stars />
+    </view>
+    <view class='title2 wx-font1 wx-h3 stars-row'>
+      <view class='title2'>服务态度：</view>
+      <stars />
+    </view>
+    <view class='title2 wx-font1 wx-h3 stars-row'>
+      <view class='title2'>服务质量：</view>
+      <stars />
+    </view>
+    <view class='title2 wx-font1 wx-h3'>个人建议：
+      <text class='wx-font2'>希望下次可以提供些信息</text>
+    </view>
+    <view class='clear'></view>
+  </view>
+
+  <view style='display: {{type == 2?"block":"none"}};'>
+    <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin: 20px;'>
+      <button class="weui-btn mini-btn btn-action-big" size="mini" bindtap='close'>关闭</button>
+    </view>
+  </view>
+
+</view>

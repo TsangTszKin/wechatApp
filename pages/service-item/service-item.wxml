@@ -1,0 +1,42 @@
+<!--pages/book-details/book-details.wxml-->
+<view class='book-details'>
+  <view class="project-cell" hover-class="weui-cell_active">
+    <view class='header'>
+      <text class='title-l'></text>
+      <text class='title'>养生项目</text>
+      <view class='add' bindtap='add'>+</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src='../../images/yuantiao.jpg' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd wx-h3">空间火炙</view>
+      <view class="weui-cell__ft wx-h3">300元</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src='../../images/yuantiao.jpg' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd wx-h3">空间火炙</view>
+      <view class="weui-cell__ft wx-h3">100元</view>
+    </view>
+    <view style='overflow:hidden;'>
+      <view class='content wx-font1 wx-h2' style="width:fit-content;float:right;">折后：
+        <text class='text-2 wx-font2' style='color: #CD5B45;'>300</text>
+      </view>
+      <view class='content wx-font1 wx-h2' style="width:fit-content;float:right;margin-right:30px;">合计：
+        <text class='text-2 wx-font2' style='color: #CD5B45;'>400</text>
+      </view>
+    </view>
+    <view class='content' style='margin-top:30px;'>
+      <view class='wx-font2 wx-h3'>注意事项：</view>
+      <view class=' wx-font1 wx-h3'>1，火炙4小时内不宜碰生水，喝凉水。注意保暖，勿吹风</view>
+      <view class=' wx-font1 wx-h3'>2，火炙4小时内不宜碰生水，喝凉水。注意保暖，勿吹风</view>
+    </view>
+  </view>
+
+  <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+      <button class="weui-btn mini-btn btn-action-big" size="mini" bindtap='next'>下一步</button>
+    </view>
+
+</view>

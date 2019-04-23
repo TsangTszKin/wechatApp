@@ -1,0 +1,14 @@
+<!--components/home/content/hot/hot.wxml-->
+<navigator url="../../../../artical/artical?id={{id}}" class="home-cell bt" hover-class="weui-cell_active">
+  
+
+  <view class='content'>
+      <image class="img" src="../../../../images/yuantiao.jpg" />
+  </view>
+  <text class='title'>{{title}}</text>
+  <view class='foot'>
+    <image class="img" src='../../../../images/location.png' style='display: {{type == "activity"?"block":"none"}}' />
+    <text class='address wx-font2' style='display: {{type == "activity"?"block":"none"}}'>{{address}}</text>
+    <text class='time wx-font2'>{{time}}</text>
+  </view>
+</navigator>
