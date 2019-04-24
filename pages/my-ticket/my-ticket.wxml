@@ -3,10 +3,10 @@
   <view class='cell card2'>
     <view class='header'>
       <view class='bcf'>
-        <image src='../../images/card.png'></image>
+        <image src='../../images/29.png'></image>
       </view>
       <text class='wx-h2'>代金券</text>
-      <text class='wx-h2'>数量：3张</text>
+      <text class='wx-h2' style='position:absolute; right: 45px;'>数量：3张</text>
     </view>
     <view class='content'>￥1000</view>
     <view class='footer'>
@@ -19,10 +19,10 @@
   <view class='cell card2'>
     <view class='header'>
       <view class='bcf'>
-        <image src='../../images/card.png'></image>
+        <image src='../../images/29.png'></image>
       </view>
       <text class='wx-h2'>代金券</text>
-      <text class='wx-h2'>数量：3张</text>
+      <text class='wx-h2' style='position:absolute; right: 45px;'>数量：3张</text>
     </view>
     <view class='content'>￥1000</view>
     <view class='footer'>
@@ -36,10 +36,10 @@
   <view class='cell card2'>
     <view class='header'>
       <view class='bcf'>
-        <image src='../../images/card.png'></image>
+        <image src='../../images/29.png'></image>
       </view>
       <text class='wx-h2'>代金券</text>
-      <text class='wx-h2'>数量：3张</text>
+      <text class='wx-h2' style='position:absolute; right: 45px;'>数量：3张</text>
     </view>
     <view class='content'>￥1000</view>
     <view class='footer'>

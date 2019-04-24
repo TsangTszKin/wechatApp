@@ -1,12 +1,47 @@
 <!--pages/sign/sign.wxml-->
-<view class="demo4">
-        <calendar 
-        weeks-type="cn" 
-        cell-size="30" 
-        next="{{true}}" prev="{{true}}" show-more-days="{{true}}"
-        calendar-style="demo4-calendar" 
-        header-style="demo4-header" 
-        board-style="demo4-board" 
-        days-color="{{demo4_days_style}}" 
-        />
+<view>
+
+  <view class='top'>
+    <view class='left'>
+      <view class='top1 wx-h2'>总签到</view>
+      <view class='bottom1'>
+        <view class='cell'>1</view>
+        <view class='cell'>0</view>
+        <view class='cell'>0</view>
+      </view>
     </view>
+    <view class='right'>
+      <text class='top2 wx-h2'>连续签到</text>
+
+      <view class='bottom2'>
+        <view class='cell'>0</view>
+        <view class='cell'>3</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="demo4">
+    <calendar weeks-type="cn" cell-size="30" next="{{true}}" prev="{{true}}" show-more-days="{{true}}" calendar-style="demo4-calendar" header-style="demo4-header" board-style="demo4-board" days-color="{{demo4_days_style}}" />
+  </view>
+
+  <view class="foot" style='display: -webkit-flex;display: flex;justify-content: space-around;margin-top: 20px;'>
+    <button class="weui-btn mini-btn btn-action-big sign-btn" size="mini" bindtap='showModal'>打卡</button>
+  </view>
+
+
+</view>
+
+<view class='modal' wx:if="{{modal}}">
+  <view class='mask'></view>
+  <view class='main'>
+    <view class='content'>
+      <view class='wx-h2' style='color: #FB6462;'>连续打卡
+        <text style="font-size: 25px;color: #FB6462;">10</text> 天
+      </view>
+      <view class='' style='font-size: 10px;opacity: 0.6;'>10人在参与</view>
+    </view>
+    <view class='footer' bindtap='hideModal'>
+      关闭
+    </view>
+  </view>
+</view>

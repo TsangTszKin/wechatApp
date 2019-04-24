@@ -1,74 +1,82 @@
-.user {
-  width: 725rpx;
-  background: #fff;
-  padding: 30rpx 25rpx 30rpx 0;
-  margin: 15rpx 0 0 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #dcdcdc;
-  box-shadow: 0 2px 5px #eee;
+.page {
+  height: 100%;
 }
 
-.user .userinfo-avatar {
-  flex: 1;
-  display: inline-block;
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 80rpx;
+.page .top {
+  height: 35vh;
+  background-color: #fff;
 }
 
-.user .user-info {
-  flex: 5;
-  text-align: left;
+.page .top .user {
+  height: 25vh;
+  display: flex;
+  align-items: center;
 }
 
-.user .user-info text {
-  display: block;
+.page .top .user .left {
+  width: 34%;
+  display: flex;
+  /* height: 80px; */
+  justify-content: center;
+  align-items: center;
 }
 
-.user .user-info .userinfo-nickname {
-  padding: 8rpx 0 10rpx 0;
-  font-size: 30rpx;
-  color: #818a8f;
+.page .top .user .left .avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  /* position: absolute;
+  top: 45px;
+  left: 11%;  */
 }
 
-.user .user-info .edit {
-  font-size: 30rpx;
-  color: #bababa;
-  line-height: 34rpx;
+.page .top .user .left .avatar2 {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 37.5px;
+  left: 9%;
 }
 
-.my {
-  margin: 15rpx 0 0 0;
-  border-top: solid 1px #ebebeb;
-  border-bottom: solid 2px #ebebeb;
+.page .top .user .right {
+  width: 66%;
 }
 
-.my .my-item {
-  width: 750rpx;
-  background: #fff;
-  padding: 0;
+.page .top .user .right .name {
+  display: flex;
+  align-items: center;
 }
 
-.my .my-item .myitem-icon {
-  flex: 1;
+.page .top .user .right .name text {
+  font-weight: bold;
 }
 
-.my .my-item .myitem-icon image {
-  width: 45rpx;
-  height: 45rpx;
-  padding: 37.5rpx 0;
+.page .top .user .right .name image {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
 }
 
-.my .my-item .myitem-name {
-  flex: 5;
-  text-align: left;
-  font-size: 34rpx;
-  color: #6d6d6d;
-  line-height: 60rpx;
-  padding: 30rpx 0;
-  border-bottom: solid 1px #ebebeb;
+.page .top .bar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.my .my-item:last-child .myitem-name {
-  border-bottom: none;
+.page .top .bar  .l {
+  height: 30px;
+  border-left: 1px solid gainsboro;
+}
+
+.page .top .bar .cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page .top .bar .cell image {
+  width: 20px;
+  height: 20px;
 }

@@ -3,7 +3,7 @@
   <view class='cell card1'>
     <view class='header'>
       <view class='bcf'>
-        <image src='../../images/card.png'></image>
+        <image src='../../images/28.png'></image>
       </view>
       <text class='wx-h2'>健康卡</text>
     </view>
@@ -21,7 +21,7 @@
   <view class='cell card2'>
     <view class='header'>
       <view class='bcf'>
-        <image src='../../images/card.png'></image>
+        <image src='../../images/29.png'></image>
       </view>
       <text class='wx-h2'>代金券</text>
     </view>
@@ -40,7 +40,7 @@
   <view class='cell card3'>
     <view class='header'>
       <view class='bcf'>
-        <image src='../../images/card.png'></image>
+        <image src='../../images/30.png'></image>
       </view>
       <text class='wx-h2'>积分卡</text>
     </view>

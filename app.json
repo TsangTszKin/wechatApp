@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/sign/sign",
+    "pages/my/my",
+    "pages/my-wallet/my-wallet",
     "pages/book-time/book-time",
     "pages/healthcard-log/healthcard-log",
     "pages/pointcard-log/pointcard-log",
@@ -15,20 +18,17 @@
     "pages/discovery/discovery",
     "pages/notify/notify",
     "pages/chat/chat",
-    "pages/my/my",
     "pages/answer/answer",
     "pages/question/question",
     "pages/artical/artical",
     "pages/tongue-history/tongue-history",
     "pages/service-details/service-details",
     "pages/select-service-item/select-service-item",
-    "pages/my-wallet/my-wallet",
     "pages/service-item/service-item",
     "pages/transfer-healthcard/transfer-healthcard",
     "pages/transfer-pointcard/transfer-pointcard",
     "pages/message/message",
-    "pages/my-ticket/my-ticket",
-    "pages/sign/sign"
+    "pages/my-ticket/my-ticket"
   ],
   "window": {
     "backgroundTextStyle": "light",

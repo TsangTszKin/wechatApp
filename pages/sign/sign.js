@@ -12,9 +12,19 @@ Page({
     day: new Date().getDate(),
     str: MONTHS[new Date().getMonth()], // 月份字符串
 
-    demo4_days_style: []
+    demo4_days_style: [],
+    modal: false
   },
-
+  hideModal() {
+    this.setData({
+      modal: false
+    })
+  },
+  showModal() {
+    this.setData({
+      modal: true
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

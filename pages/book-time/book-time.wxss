@@ -92,6 +92,10 @@ page {
   height: 45%;
   background-color: #f17351;
   border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
 }
 
 .modal .main .bottom {
