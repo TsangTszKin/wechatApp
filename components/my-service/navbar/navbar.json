@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "book-cell-0": "/components/my-service/content/book0/book",
+    "book-cell-1": "/components/my-service/content/book1/book",
+    "book-cell-2": "/components/my-service/content/book2/book"
+  }
+}

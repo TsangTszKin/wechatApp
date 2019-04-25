@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+
+  <navbar bookList0="{{bookList0}}" bookList1="{{bookList1}}" bookList2="{{bookList2}}" bindtabChange="tabChange" activeIndex="{{activeIndex}}"></navbar>
+
+</scroll-view>

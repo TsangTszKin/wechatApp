@@ -2,5 +2,5 @@
   "usingComponents": {
     "stars": "/components/common/stars/stars"
   },
-  "navigationBarTitleText": "预约详情"
+  "navigationBarTitleText": "详情"
 }

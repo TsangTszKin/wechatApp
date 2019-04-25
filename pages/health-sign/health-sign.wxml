@@ -1,0 +1,15 @@
+<view class='page'>
+  <view class='main bcg' bindtap='selectImg' wx:if="{{!imgUrl}}">
+    <image src='../../images/03.png' class='select'></image>
+    <text class='wx-h3 wx-font2'>上传支持图片</text>
+  </view>
+
+  <view class='main bcg' bindtap='seeBigImg' wx:if="{{imgUrl}}">
+    <image class='img' data-url='{{imgUrl}}' src='{{imgUrl}}' bindtap='seeBigImg'></image>
+  </view>
+
+
+  <view class="weui-btn-area">
+    <button class="weui-btn btn-action-big" bindtap="sumit">提交</button>
+  </view>
+</view>

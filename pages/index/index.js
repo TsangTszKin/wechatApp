@@ -8,7 +8,6 @@ Page({
     feed: [],
     feed_length: 0,
     imgUrls: [
-      '../../images/muwu.jpg',
       '../../images/yuantiao.jpg'
     ],
     indicatorDots: true,

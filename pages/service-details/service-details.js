@@ -42,6 +42,11 @@ Page({
       url: '../book/book?id=' + id
     })
   },
+  seeTongue(e){
+    wx.navigateTo({
+      url: '../tongue-history/tongue-history'
+    })
+  },
   service(e) {
     // let id = e.currentTarget.dataset.id;
     wx.showModal({

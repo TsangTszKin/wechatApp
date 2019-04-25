@@ -1,7 +1,7 @@
 <!--星星评价-->
 <view class="container">
   <view class="comment1-description">
-    <view class="star-pos" style="display:flex;flex-direction:row;">
+    <view class="star-pos" style="display:flex;flex-direction:row;margin-top:2px;">
       <view class="stars  {{flag>=1? 'on': ''}}" bindtap="changeColor1"></view>
       <view class="stars  {{flag>=2? 'on': ''}}" bindtap="changeColor2"></view>
       <view class="stars  {{flag>=3? 'on': ''}}" bindtap="changeColor3"></view>

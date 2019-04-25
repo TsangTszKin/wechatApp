@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+.container {
+  padding: 0;
+  font-size: 14rpx;
+  background: #fff;
+  color: #000;
+}
+
+.container .advt-title {
+  position: absolute;
+  top: 126px;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  text-align: left;
+  z-index: 1;
+  background-color: #000;
+  opacity: 0.7;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.container .notice {
+  width: 100%;
+  font-size: 15px;
+  background-color: #DFE9EE;
+  text-align: center;
+  color: red;
+  padding: 5px;
+}

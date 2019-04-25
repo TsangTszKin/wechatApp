@@ -1,0 +1,36 @@
+/* components/navbar.wxss */
+@import '/style/weui.wxss';
+@import '/style/base.wxss';
+
+.weui-navbar {
+  border: none;
+}
+
+.weui-navbar .weui-navbar__item .weui-navbar__title {
+  background-color: #dfe9ee;
+  padding: 3px 9px;
+  border-radius: 15px;
+}
+
+.weui-navbar .weui-bar__item_on .weui-navbar__title {
+  background-color: #ab683d;
+  padding: 3px 9px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.weui-navbar__slider {
+  width: 25%;
+}
+
+.weui-tab__panel {
+  overflow: visible;
+}
+
+.time {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  height: 32px;
+  line-height: 32px;
+}

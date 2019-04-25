@@ -1,0 +1,4 @@
+/* pages/user-info/user-info.wxss */
+.page{
+  height: 100%;
+}

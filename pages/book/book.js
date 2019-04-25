@@ -8,8 +8,7 @@ Page({
     feed: [],
     feed_length: 0,
     imgUrls: [
-      '../../images/yuantiao.jpg',
-      '../../images/muwu.jpg',
+      '../../images/yuantiao.jpg'
     ],
     indicatorDots: true,
     autoplay: false,

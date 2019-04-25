@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navbar": "/components/my-service/navbar/navbar"
+  },
+  "navigationBarTitleText": "我的服务"
+}
