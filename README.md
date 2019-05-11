@@ -2,7 +2,7 @@
 
 微信小程序demo
 
-![](images/readme/1.png)
+![微信小程序demo图示例](images/readme/1.gif)
 
 ### description
 - 界面及交互设计来自知乎 Android 版本
@@ -26,22 +26,6 @@ https://github.com/TsangTszKin/WeChatApplet.git
 下载安装Wechat DEV Tools, 并导入项目
 
 ### 演示
-
-下拉刷新等
-
-![](images/readme/IMG_1132.GIF)
-
-底部 tab 切换
-
-![](images/IMG_1133.GIF)
-
-顶部自定义 tab 切换
-
-![](images/readme/IMG_1134.GIF)
-
-页面跳转
-
-![](images/readme/IMG_1136.GIF)
 
 
 ##### Demo 用于学习交流, 转载请注明出处
